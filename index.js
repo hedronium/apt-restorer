@@ -5,7 +5,7 @@ var lib 	 = require('./lib/lib');
 var lib  	 = new lib(cmd);
 
 program
-   .version('0.0.1')
+   .version('0.10.0')
    .usage('<command>')
 
 program
