@@ -1,6 +1,6 @@
 {
   "name": "apt-restorer",
-  "version": "0.10.0",
+  "version": "0.10.1",
   "description": " A cli tool which helps restore installed softwares and repository list in a new ubuntu machine",
   "main": "index.js",
   "scripts": {
