@@ -1,6 +1,6 @@
 {
   "name": "apt-restorer",
-  "version": "0.10.0",
+  "version": "0.10.3",
   "description": " A cli tool which helps restore installed softwares and repository list in a new ubuntu machine",
   "main": "index.js",
   "scripts": {
@@ -18,8 +18,21 @@
   "bugs": {
     "url": "https://github.com/Hedronium/apt-restorer/issues"
   },
+
   "homepage": "https://github.com/Hedronium/apt-restorer#readme",
+
   "bin": {
     "apt-restorer": "./index.js"
-  }
+  },
+  "dependencies": {
+    "cli-color": "^1.1.0",
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^2.9.0",
+    "node-cmd": "^1.1.1"
+  },
+    "bin": {
+    "apt-restorer": "./index.js"
+  },
+  "preferGlobal": "true"
 }
