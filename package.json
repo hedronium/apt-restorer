@@ -28,5 +28,6 @@
   },
     "bin": {
     "apt-restorer": "./index.js"
-  }
+  },
+  "preferGlobal": "true"
 }
