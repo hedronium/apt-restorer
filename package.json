@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/Hedronium/apt-restorer/issues"
   },
-  "homepage": "https://github.com/Hedronium/apt-restorer#readme"
+  "homepage": "https://github.com/Hedronium/apt-restorer#readme",
+  "bin": {
+    "apt-restorer": "./index.js"
+  }
 }
