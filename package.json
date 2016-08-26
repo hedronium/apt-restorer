@@ -18,5 +18,15 @@
   "bugs": {
     "url": "https://github.com/Hedronium/apt-restorer/issues"
   },
-  "homepage": "https://github.com/Hedronium/apt-restorer#readme"
+  "homepage": "https://github.com/Hedronium/apt-restorer#readme",
+  "dependencies": {
+    "cli-color": "^1.1.0",
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^2.9.0",
+    "node-cmd": "^1.1.1"
+  },
+    "bin": {
+    "apt-restorer": "./index.js"
+  }
 }
