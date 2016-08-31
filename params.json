@@ -1,0 +1,6 @@
+{
+  "name": "Apt-restorer",
+  "tagline": "A cli tool which helps restore installed softwares and repository list in a new ubuntu machine",
+  "body": "# apt-restorer\r\nA cli tool which helps restore installed softwares and repository list in a new ubuntu machine\r\n\r\n\r\n## Installation\r\n\r\nGrab it using npm.\r\n> Install it globally to use CLI commands.\r\n\r\n```bash\r\nnpm install -g apt-restorer\r\n```\r\n\r\n## Usage\r\n\r\n### Commands ##\r\n\r\n```bash\r\napt-restorer\r\n```\r\nProcess all plans as mentioned in `apt-restorer`\r\n#### Version\r\n```bash\r\napt-restorer --version\r\n```\r\n#### Grab installed repository and softwares\r\n```bash\r\napt-restorer store\r\n```\r\n#### Run installtion by pointing out a full path for a json file\r\n\r\npath name must be a full pathname , and the pathname string must contain the .json filename\r\n\r\n```bash\r\napt-restorer run\r\n```",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
